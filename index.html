@@ -3,13 +3,17 @@
 <head>
 	<title>Youtube</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+    
 </head>
 <body>
 	<header>
-		<h1>Youtube</h1>
+		<div id = "youtubeTitle">
+			  <h1>Youtube</h1>
+		</div>
+		
 		<div id='searchbar'>
-		<input type="text" name="search" placeholder="Search">
-		<button>Search</button>
+		     <input type="text" name="search" placeholder="Search" size = "50">
+		     <button>Search</button>
 		<div>
 	</header>
 	<main>
@@ -17,26 +21,33 @@
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/ZnuwB35GYMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			<h2>Video Name</h2>
 			<h3>13223 views</h3>
+            <!-- --------------------------------------------------------------------- -->
+		            <div id='video-buttons'>
+
+					<div id='likes'>
+						<button>Like</button>
+						<h3>1231 Likes</h3>
+					</div>
+
+					<div id='dislikes'>
+						<button>Dislike</button>
+						<h3>32 Dislikes</h3>
+					</div>
+
+					<div id='save-share'>
+					     <button>Share</button>
+					     <button>Save</button>
+					</div>
+
+				    </div>
+					<div id='author'>
+						<h3>Author Name</h3>
+						<button>Subscribe</button>
+						<div id='description'>Author's video description</div>
+					</div>
+
 		</div>
-		<div id='video-buttons'>
-			<div id='likes'>
-				<button>Like</button>
-				<h3>1231 Likes</h3>
-			</div>
-			<div id='dislikes'>
-				<button>Dislike</button>
-				<h3>32 Dislikes</h3>
-			</div>
-			<div id='save-share'>
-			<button>Share</button>
-			<button>Save</button>
-			</div>
-		</div>
-		<div id='author'>
-			<h3>Author Name</h3>
-			<button>Subscribe</button>
-			<div id='description'>Author's video description</div>
-		</div>
+		
 		<div id='suggested'>
 			<img src="https://via.placeholder.com/150">
 			<img src="https://via.placeholder.com/150">
